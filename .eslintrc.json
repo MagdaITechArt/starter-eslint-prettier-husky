@@ -3,11 +3,7 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "airbnb"
-    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb"],
     "settings": {
         "react": {
             "version": "require('./package.json').dependencies.react"
@@ -20,10 +16,7 @@
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": [
-        "react",
-        "import"
-    ],
+    "plugins": ["react", "import"],
     "rules": {
         "no-console": 1,
         "no-debugger": 1,
@@ -180,9 +173,6 @@
         "no-confusing-arrow": 0,
         "class-methods-use-this": 0,
         "operator-linebreak": [2, "after"],
-        "no-unused-vars": 2,
-        "@typescript-eslint/explicit-function-return-type": 0,
-        "@typescript-eslint/member-delimiter-style": 0,
-        "@typescript-eslint/no-var-requires": 0
+        "no-unused-vars": 2
     }
 }
